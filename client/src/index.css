@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
