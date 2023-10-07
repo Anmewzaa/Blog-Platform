@@ -4,7 +4,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // Page
 import HomePage from "./pages/HomePage.tsx";
-import BlogsPage from "./pages/BlogsPage.tsx";
+import BlogPage from "./pages/BlogPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -12,8 +12,8 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/blogs",
-    element: <BlogsPage />,
+    path: "/blog/:id",
+    element: <BlogPage />,
   },
 ]);
 
