@@ -8,7 +8,7 @@ const navItem = [
   },
   {
     Name: "Blog",
-    URL: "/",
+    URL: "/blogs",
   },
   {
     Name: "Login",
