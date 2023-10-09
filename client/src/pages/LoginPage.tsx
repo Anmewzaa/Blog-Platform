@@ -1,5 +1,3 @@
-import React from "react";
-
 const LoginPage = () => {
   return (
     <section className="bg-gray-50 dark:bg-gray-900">
